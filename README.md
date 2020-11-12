@@ -14,8 +14,10 @@ The purpose of this analysis is to predict high or low credit risk using supervi
 
 - A combination of over and undersampling the dataset, using the SMOTEEN algorithm, had a balance accuracy score of 63%, a precision score of 99%, and a recall score of 53%.
 
-- 
+- The Balanced Random Forest Classifier had a balance accuracy score of 79%, a precision score of 99%, and a recall score of 91%.
 
-- 
+- The Easy Ensemble Classifier resulted in a balance accuracy score of 93%, a precision score of 99%, and a recall score of 94%.
 
 ## Summary
+
+From the six machine learning models performed, all models showed a precision score of 99%. Undersampling the dataset was least effective in predicting credit risk because of the lowest balanced accuracy and recall score. The Easy Ensemble Classifer model was the most effective in predicting credit-risk based off of a balance accurancy score of 93% and a recall (sensitivity) score of 94%. I would recommend using this model to predict credit-risk. The confusion matrix shows the least number of predictions to be categorized as false positive and false negative, and the most correctly prediction true positives and true negatives.
